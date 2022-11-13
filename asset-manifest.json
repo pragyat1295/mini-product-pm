@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/mini-product-pm/static/css/main.b263e6eb.css",
+    "main.js": "/mini-product-pm/static/js/main.cffdee07.js",
+    "static/js/787.fa88d31a.chunk.js": "/mini-product-pm/static/js/787.fa88d31a.chunk.js",
+    "static/media/image_9.svg": "/mini-product-pm/static/media/image_9.41e2b34d16da073ab178599896a98554.svg",
+    "static/media/NxtWave TM_Coloured logo 1.svg": "/mini-product-pm/static/media/NxtWave TM_Coloured logo 1.bd9f808d2f591cd41099572eebc58b3a.svg",
+    "index.html": "/mini-product-pm/index.html",
+    "main.b263e6eb.css.map": "/mini-product-pm/static/css/main.b263e6eb.css.map",
+    "main.cffdee07.js.map": "/mini-product-pm/static/js/main.cffdee07.js.map",
+    "787.fa88d31a.chunk.js.map": "/mini-product-pm/static/js/787.fa88d31a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b263e6eb.css",
+    "static/js/main.cffdee07.js"
+  ]
+}
