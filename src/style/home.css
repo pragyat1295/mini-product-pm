@@ -1,0 +1,64 @@
+.pageLayout {
+    background: #F5F5F5;
+    padding: 4% 1%;
+}
+
+.displayLayout {
+    margin-top: 5%;
+    
+}
+
+.displayCard {
+    min-height: 30vh;
+    background: white;
+    padding: 5%;
+    border: 1px solid #D7DFE9;
+    border-radius: 4px;
+}
+
+.data_image img {
+    border: 2px solid #D7DFE9;
+    border-radius: 4px;
+}
+
+.data_title {
+    font-weight: 500;
+    font-size: 2vh;
+    color: #171F46;
+}
+
+.data_category {
+    color: #7E858E;
+    font-size: 1.8vh;
+}
+
+.data_link {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 80%;
+    margin-top: 5%;
+}
+
+.data_link a {
+    text-decoration: none;
+}
+
+.data_description {
+    margin-top: 5%;
+    color: #7E858E;
+}
+
+.input_search {
+    padding-left: 5%;
+}
+
+.parent {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    left: 1%;
+    top: 15%;
+}
