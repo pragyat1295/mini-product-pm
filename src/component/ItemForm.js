@@ -18,7 +18,7 @@ export default function ItemForm() {
           category: sendData.category,
           tag: sendData.tag
         }
-        console.log("data send is", myData);
+        // console.log("data send is", myData);
     
         const result = await fetch('https://media-content.ccbp.in/website/react-assignment/add_resource.json',
         {

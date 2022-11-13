@@ -13,7 +13,7 @@ export default function Pagination({ totalPosts,
     for(let i=1; i<= Math.ceil(totalPosts/postsPerPage); i++ ) {
         pages.push(i);
     }
-    console.log("pages is", pages)
+    // console.log("pages is", pages)
   return (
     <div className='pagination'>
     {

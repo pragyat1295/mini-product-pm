@@ -43,7 +43,7 @@ function App() {
   }, [])
 
   const Login = details => {
-    console.log(details);
+    // console.log(details);
 
     if(details.password === adminUser.password) {
       
