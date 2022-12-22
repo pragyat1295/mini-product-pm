@@ -104,7 +104,16 @@ function App() {
             </Routes>
       </Router>
       ) :
-      <LoginForm Login = {Login} error = {error} /> }
+       <Router>
+
+        <Routes>
+          <Route path = '/' exact element = {(
+            <LoginForm Login = {Login} error = {error} />
+          )} />
+            
+        </Routes>
+       </Router>
+       }
 
         
    
