@@ -13,7 +13,7 @@ function LoginForm({ Login, error }) {
 
   return (
     <div>
-        <h2 className = 'center' style = {{marginTop: '10%'}}>Login to NxtWave</h2>
+        <h2 className = 'center' style = {{marginTop: '10%'}}>Login to Pm products</h2>
         <div>
             <h4 className = 'center' style = {{color: 'red'}}>
                 {error}

@@ -76,21 +76,21 @@ function App() {
 
   // console.log("requests in useEffect", request);
 
-  function displayUsers() {
+  (function () {
     for(let i = 0; i<testData.length; i++) {
       if(testData[i].tag === 'user') {
         users.push(testData[i]);
       }
     }
-  }
+  })()
 
-  displayUsers();
+  // displayUsers();
   // console.log("users in useEffect", users);
 
 
   return (
     <div className="App">
-      {(user.id !== '') ? (
+      {/* {(user.id !== '') ? ( */}
         <Router>
           <Header/>
 
@@ -103,8 +103,8 @@ function App() {
                 )}/>
             </Routes>
       </Router>
-      ) :
-       <Router>
+      {/* ) : */}
+       {/* <Router>
 
         <Routes>
           <Route path = '/' exact element = {(
@@ -113,7 +113,7 @@ function App() {
             
         </Routes>
        </Router>
-       }
+       } */}
 
         
    

@@ -20,7 +20,7 @@ export default function AddItem() {
           <div className = "back-to-home">
             <NavLink to= '/'>
               <button style={{marginLeft: '5%', marginTop: '5%'}}>
-                {'<  Users'} 
+                {'<<  Users'} 
               </button>
             </NavLink>
           </div>
