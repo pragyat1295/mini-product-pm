@@ -4,6 +4,8 @@ import './App.css';
 import { BrowserRouter as Router,
 Routes, 
 Route,
+// redirect,
+Navigate,
 Link } from 'react-router-dom';
 import Header from './component/Header';
 import AddItem from './additem.js';
@@ -90,30 +92,31 @@ function App() {
 
   return (
     <div className="App">
-      {/* {(user.id !== '') ? ( */}
+      {(user.id !== '') ? (
         <Router>
           <Header/>
 
             <Routes>
-            <Route path = '/' exact element = {(
+           
+            <Route path = '/mini-product-pm'  element = {(
                   <Home testData={testData} requestTag = {request} userTag = {users} />
                 )}/>
-              <Route path = '/additem' exact element = {(
+              <Route path = '/additem'  element = {(
                   <AddItem/>
                 )}/>
             </Routes>
       </Router>
-      {/* ) : */}
-       {/* <Router>
+       ) : 
+        <Router>
 
         <Routes>
-          <Route path = '/' exact element = {(
+          <Route path = '/mini-product-pm' exact element = {(
             <LoginForm Login = {Login} error = {error} />
           )} />
             
         </Routes>
        </Router>
-       } */}
+       } 
 
         
    

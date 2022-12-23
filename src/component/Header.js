@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../image/header/NxtWave TM_Coloured logo 1.svg';
+import logo from '../image/header/pm_logo.webp';
 import user from '../image/header/user.png';
 import { NavLink, useLocation } from 'react-router-dom';
 
@@ -21,7 +21,7 @@ export default function Header() {
         <div className = 'row'>
           <div className = 'col-8 col-lg-7 col-xl-9' >
             <div className = 'logo'>
-              <img src = {logo} alt = '../'/>
+              <img src = {logo} width = {75} height = {75} alt = '../'/>
             </div>
             
           </div>

@@ -18,7 +18,7 @@ export default function AddItem() {
           <div className = 'col-12 col-lg-6  '>
 
           <div className = "back-to-home">
-            <NavLink to= '/'>
+            <NavLink to= '/mini-product-pm'>
               <button style={{marginLeft: '5%', marginTop: '5%'}}>
                 {'<<  Users'} 
               </button>
