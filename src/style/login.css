@@ -1,0 +1,48 @@
+.layout {
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    
+}
+
+.formContainer {
+    background: white;
+    width: 50%;
+    position: absolute;
+    top: 15%;
+    left: 22%;
+    /* border-radius: 10%; */
+    box-shadow: 40px 10px 5px rgba(95, 93, 93, 0.632);
+    
+}
+
+.img_properties {
+    margin-top: 20%;
+}
+
+.head_product {
+    font-size: 3vh;
+}
+
+@media (max-width: 1100px) {
+    .formContainer {
+        width: 90%;
+        top: 25%;
+        left: 5%;
+        padding-bottom: 10%;
+    }
+    .img_properties {
+        margin-top: 15%;
+    }
+}
+
+@media (max-width: 500px) {
+    .formContainer {
+        width: 90%;
+        top: 20%;
+        left: 5%;
+    }
+}
