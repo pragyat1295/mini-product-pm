@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/mini-product-pm/static/css/main.9a3ccec6.css",
-    "main.js": "/mini-product-pm/static/js/main.16ebea82.js",
+    "main.css": "/mini-product-pm/static/css/main.99dac909.css",
+    "main.js": "/mini-product-pm/static/js/main.f8178975.js",
     "static/js/787.fa88d31a.chunk.js": "/mini-product-pm/static/js/787.fa88d31a.chunk.js",
     "static/media/image_9.svg": "/mini-product-pm/static/media/image_9.41e2b34d16da073ab178599896a98554.svg",
     "static/media/login_img.jpg": "/mini-product-pm/static/media/login_img.1ade520d816582638a0e.jpg",
     "static/media/pm_logo.webp": "/mini-product-pm/static/media/pm_logo.96086d7a424dd986da32.webp",
     "index.html": "/mini-product-pm/index.html",
-    "main.9a3ccec6.css.map": "/mini-product-pm/static/css/main.9a3ccec6.css.map",
-    "main.16ebea82.js.map": "/mini-product-pm/static/js/main.16ebea82.js.map",
+    "main.99dac909.css.map": "/mini-product-pm/static/css/main.99dac909.css.map",
+    "main.f8178975.js.map": "/mini-product-pm/static/js/main.f8178975.js.map",
     "787.fa88d31a.chunk.js.map": "/mini-product-pm/static/js/787.fa88d31a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a3ccec6.css",
-    "static/js/main.16ebea82.js"
+    "static/css/main.99dac909.css",
+    "static/js/main.f8178975.js"
   ]
 }
