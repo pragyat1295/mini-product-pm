@@ -3,7 +3,7 @@ import logo from '../image/header/pm_logo.webp';
 import user from '../image/header/user.png';
 import { NavLink, useLocation } from 'react-router-dom';
 
-export default function Header() {
+export default function Header({logOut}) {
 
   const location = useLocation();
 
@@ -43,8 +43,10 @@ export default function Header() {
                 <div>
                   <img src = {user} alt = '../user' height = {50} width = {50} />
                 </div>
-                <div className = 'd-block d-lg-none'>
-                    <a className="btn btn-white dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"/>
+                <div 
+                // className = 'd-block d-lg-none'
+                >
+                  <a className="btn btn-white dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"/>
                   <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
                     {/* <li><a className="dropdown-item" href="#">Action</a></li>
                     <li><a className="dropdown-item" href="#">Another action</a></li>
@@ -57,6 +59,12 @@ export default function Header() {
                           </button>
                         </NavLink>
                    
+                    </div>
+
+                    <div className = 'dropdown-item'>
+                      <button onClick={logOut}>
+                        Logout
+                      </button>
                     </div>
                   </ul>
                 </div>

@@ -68,3 +68,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+## Tasks done here:
+
+- Created a responsive design for the whole layout.
+- A login page to access the entry.
+- A header which has logout functionality and a button which will rout you to the data entry page.
+- A data entry page (Accessed by clicking 'Add Button' button) where authorized user can fill the data and it will be send to the backend. 
+- 3 different categories `Filter` which will display you all the data of that category.
+- A `search component` for each filter.
+- A user card to display the data.
+- A `custom pagination` for each category.
+- Trying to add Logout functionality as well. 

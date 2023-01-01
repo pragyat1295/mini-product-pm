@@ -117,12 +117,12 @@ function setEvent(id) {
            <div className = 'input-group parent' style = {{marginTop: '5%', width: '75%'}}>
                 
                 <input className = 'form-control input_search' 
-                type = 'text' placeholder='search resource name...' 
-                onChange = {e => {setSearchTerm(e.target.value)}} />
+                type = 'text' placeholder='search resource name...' aria-label='search' 
+                onChange = {e => {setSearchTerm(e.target.value)}}  />
                 
-              <div className='child'>
+              {/* <div className='child'>
               <BsSearch/>
-              </div>
+              </div> */}
            </div>
 
             {allTag && renderAllTag()}

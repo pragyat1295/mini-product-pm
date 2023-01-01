@@ -5,14 +5,15 @@ import { BrowserRouter as Router,
 Routes, 
 Route,
 // redirect,
-Navigate,
+// useNavigate ,
 Link } from 'react-router-dom';
+
 import Header from './component/Header';
 import AddItem from './additem.js';
 import Home from './home';
 import './style/header.css';
 import './style/home.css';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useLayoutEffect } from 'react';
 import LoginForm from './component/LoginForm';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
 
   const [user, setUser] = useState({id: '', password: ''});
   const [error, setError] = useState("");
+  // const navigate = useNavigate();
 
 
 
@@ -63,7 +65,8 @@ function App() {
     setUser({
       id: '',
       password: '',
-    })
+    });
+    // navigate('/mini-product-pm')
   }
 
   function displayRequest() {
@@ -89,12 +92,49 @@ function App() {
   // displayUsers();
   // console.log("users in useEffect", users);
 
+  // ===========================================================================================
+  // ===========================================================================================
+
+  // const Child = () => {
+  //   useEffect(() => {
+  //       console.log('useEffect child');
+  //       setTimeout(function() {
+  //         console.log('timegap from child');
+  //       }, 1000);
+
+  //     });
+  //     // useLayoutEffect(() => {
+  //     //   console.log('use layout effect child');
+  //     // });
+  //   // console.log('child is called');
+  
+  //     return null;
+  // }
+  
+  // const Parent = () => {
+  //   useEffect(() => {
+  //       console.log('useEffect parent');
+  //     });
+  //     useLayoutEffect(() => {
+  //       // console.log('use layout effect parent');
+  //       setTimeout(function() {
+  //         console.log('use layout effect parent');
+  //       },1000 )
+  //     });
+  
+  //     return Child();
+  // }
+
+  // Parent();
+
+  // ==================================================================================================
+  // ==================================================================================================
 
   return (
     <div className="App">
       {(user.id !== '') ? (
         <Router>
-          <Header/>
+          <Header logOut={Logout} />
 
             <Routes>
            

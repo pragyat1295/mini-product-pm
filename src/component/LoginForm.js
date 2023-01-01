@@ -50,7 +50,7 @@ function LoginForm({ Login, error }) {
                 </div>
 
                 <div className = 'col-12 col-lg-6 d-none d-xl-block'>
-                    <img src = {loginImg} height = {500} width = {400}  alt = '../'/>
+                    <img src = {loginImg} height = {550} width = {450}  alt = '../'/>
                 </div>
             </div>
         </div>
