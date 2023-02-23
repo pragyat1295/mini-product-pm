@@ -8,7 +8,7 @@ function LoginForm({ Login, error }) {
 
     const [loginDetails, setloginDetails] = useState({id: '', password: ''});
 
-    const submitHandler = e => {
+    const submitHandler = (e) => {
         e.preventDefault();
 
         Login(loginDetails);
