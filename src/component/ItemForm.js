@@ -20,7 +20,9 @@ export default function ItemForm() {
         }
         // console.log("data send is", myData);
     
-        const result = await fetch('https://media-content.ccbp.in/website/react-assignment/add_resource.json',
+        const result = await fetch(
+          // 'https://media-content.ccbp.in/website/react-assignment/add_resource.json',
+          'https://httpbin.org/post',
         {
           method: 'POST',
           headers: {
@@ -31,6 +33,17 @@ export default function ItemForm() {
     
         const resultInJson = await result.json();
         console.log("Push result" ,resultInJson)
+        // reset all the data into the form
+        setSendData(
+          {
+            title: '',
+            icon_url: '',
+            link: '',
+            description: '',
+            category: '',
+            tag: '',
+          }
+        )
       }
   return (
     <div className = 'itemForm'>
